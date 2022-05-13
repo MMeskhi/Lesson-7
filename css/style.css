@@ -36,6 +36,10 @@ body {
     animation: moveRight 2.5s linear infinite;
 }
 
+.car-a:hover {
+    animation-play-state: paused;
+}
+
 .car-a img {
     height: 60px;
 }
@@ -45,6 +49,10 @@ body {
     bottom: 6%;
     right: -22%;
     animation: moveLeft 3s linear infinite;
+}
+
+.car-b:hover {
+    animation-play-state: paused;
 }
 
 .car-b img {
