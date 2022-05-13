@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #4a0067;
+}
+
+
+.box {
+    background: url(../img/img_1.png);
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    margin: 5% auto;
+    overflow: hidden;
+    box-shadow: 1px 1px 50px #2c003d;
+}
+
+.road {
+    background: url(../img/Img_2.png);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.car-a {
+    position: absolute;
+    bottom: 6%;
+    left: -22%;
+    animation: moveRight 2.5s linear infinite;
+}
+
+.car-a img {
+    height: 60px;
+}
+
+.car-b {
+    position: absolute;
+    bottom: 6%;
+    right: -22%;
+    animation: moveLeft 3s linear infinite;
+}
+
+.car-b img {
+    height: 65px;
+}
+
+@keyframes moveRight {
+    100% {
+        transform: translateX(1450px)
+    }
+
+    ;
+}
+
+@keyframes moveLeft {
+    100% {
+        transform: translateX(-1450px)
+    }
+
+    ;
+}
