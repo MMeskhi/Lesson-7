@@ -42,7 +42,7 @@ body {
 }
 
 .car-a img {
-    height: 60px;
+    height: 45px;
 }
 
 .car-b {
@@ -57,7 +57,7 @@ body {
 }
 
 .car-b img {
-    height: 65px;
+    height: 50px;
 }
 
 @keyframes moveRight {
@@ -76,14 +76,14 @@ body {
     ;
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 900px) {
     .box {
-        height: 500px;
-        margin: 10% auto;
+        height: 700px;
+        margin: 7.5% auto;
     }
 
     .car-a, .car-b {
-        bottom: 8%;
+        bottom: 6%;
     }
 
     .car-a {
@@ -95,10 +95,37 @@ body {
     }
 
     .car-a img {
-        height: 50px;
+        height: 35px;
     }
 
     .car-b img {
-        height: 55px;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .box {
+        height: 720px;
+        margin: 10% auto;
+    }
+
+    .car-a, .car-b {
+        bottom: 5.85%;
+    }
+
+    .car-a {
+        animation: moveRight 3s linear infinite;
+    }
+
+    .car-b {
+        animation: moveLeft 3.5s linear infinite;
+    }
+
+    .car-a img {
+        height: 30px;
+    }
+
+    .car-b img {
+        height: 35px;
     }
 }
