@@ -78,12 +78,12 @@ body {
 
 @media all and (max-width: 900px) {
     .box {
-        height: 700px;
+        height: 580px;
         margin: 7.5% auto;
     }
 
     .car-a, .car-b {
-        bottom: 6%;
+        bottom: 7%;
     }
 
     .car-a {
@@ -105,12 +105,12 @@ body {
 
 @media all and (max-width: 450px) {
     .box {
-        height: 720px;
+        height: 480px;
         margin: 10% auto;
     }
 
     .car-a, .car-b {
-        bottom: 5.85%;
+        bottom: 8.5%;
     }
 
     .car-a {
