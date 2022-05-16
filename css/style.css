@@ -13,7 +13,8 @@ body {
     background: url(../img/img_1.png);
     background-size: cover;
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
+    width: 80%;
     position: relative;
     margin: 5% auto;
     overflow: hidden;
@@ -73,4 +74,31 @@ body {
     }
 
     ;
+}
+
+@media all and (max-width: 450px) {
+    .box {
+        height: 500px;
+        margin: 10% auto;
+    }
+
+    .car-a, .car-b {
+        bottom: 8%;
+    }
+
+    .car-a {
+        animation: moveRight 3s linear infinite;
+    }
+
+    .car-b {
+        animation: moveLeft 3.5s linear infinite;
+    }
+
+    .car-a img {
+        height: 50px;
+    }
+
+    .car-b img {
+        height: 55px;
+    }
 }
