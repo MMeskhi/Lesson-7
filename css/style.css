@@ -76,7 +76,7 @@ body {
     ;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1024px) {
     .box {
         height: 580px;
         margin: 7.5% auto;
@@ -103,7 +103,7 @@ body {
     }
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 480px) {
     .box {
         height: 480px;
         margin: 10% auto;
